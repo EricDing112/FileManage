@@ -12,7 +12,7 @@ public class RenameTool {
 		if (args.length != 0) {
 			regex = args[0];
 		}
-		String filePath = "D:\\TDDOWNLOAD\\新建文件夹\\";
+		String filePath = "D:\\TDDOWNLOAD\\鏂板缓鏂囦欢澶筡\";
 		InputFolders folders = InputFolders.getInstance(filePath);
 		try {
 			files = folders.inputFiles(regex);
